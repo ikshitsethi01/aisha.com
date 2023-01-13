@@ -8,6 +8,8 @@
     <title>memories with you <3</title>
     <style>
         .button {
+            padding: 7px;
+            
             transition-duration: 0.4s;
             background-color: red;
         }   
@@ -16,10 +18,22 @@
             background-color: #4CAF50;
             color: white;
         }
+
+        .clicked{
+            margin: 5px;
+            font-size: 20px;
+            color: white;
+            padding: 2px;
+            opacity: 0%;
+        }
+
     </style>
+    <script>
+      
+    </script>
 </head>
 
-<body background="her3.PNG"
+<body background="images/her3.PNG"
     style="background-repeat: no-repeat; background-size: cover; background-blend-mode:soft-light; height: 949px;">
     <div style="color: white; opacity: 100%;">
         <h1>
@@ -28,7 +42,10 @@
         <h1>
             <center>Has anyone told you how preety you look? <br> (except me ofc)</center>
         </h1>
-        <center><button class="button">no</button></center>
+        <center><button type="button" class="button" onclick='var el = document.getElementById("div2"); el.style.opacity="100%"'>What was the need of all this?</button></center>
+    </div>
+    <div class="clicked" id="div2"> 
+        <center><b><p>This website creation was orignally started ages ago by me for our some month anniversary but my computer and modules got in such a bad condition that i could never resume. This is the continuation of that, just not for the same reason. <br> Like ever since we met, you have always been sooo like cool and wonderful and such a good friend to me, and me have never been able to give you what you deserve and am sincerly sorry for that. I hope this year, 2023, will go better and i will make sure i never repeat the mistakes i made.</p></center></b>
     </div>
 </body>
 
